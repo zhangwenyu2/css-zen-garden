@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
 * {
     margin: 0;
 }
@@ -107,6 +110,7 @@ a.zen-accessibility,
 a.zen-github,
 a.zen-license
 {
+    margin:70px;
     text-decoration: none;
     font-weight:bolder;
 }
@@ -128,4 +132,15 @@ a.zen-license
     position:absolute;
     margin:50px;
 }
+a:link {
+    text-decoration: none;
+    color:goldenrod;
+}
+a:visited {
+    color:darkred;
+}
+a:hover {
+    background-color: white; /*鼠标移到链接上面的的颜色*/
+}
+
 
